@@ -4,8 +4,8 @@ import csv
 from lenskit.algorithms import Recommender
 from lenskit.algorithms.user_knn import UserUser
 
-data = ds.MovieLens('./dataset')
-print("Successfully installed dataset.")
+data = ds.MovieLens('movielens_dataset_small')
+print("Successfully installed movielens_dataset_small.")
 pd.set_option('display.max_columns', None)
 
 rows_to_show = 10
